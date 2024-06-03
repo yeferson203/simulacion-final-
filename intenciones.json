@@ -1,0 +1,308 @@
+{
+  
+  "intents": [
+
+    
+    {
+      "tag": "saludos",
+      "patterns": ["hola", "Hola", "como estas", "buenos dias", "una consulta", "que tal", "¿Como estas?", "Buenos dias"],
+      "responses": ["Quetal ,soy ARCAboot ¿En que puedo ayudarte el dia de hoy?"]
+    },
+    {
+      "tag": "respuesta_amable",
+      "patterns": [
+        "gracias",
+        "me fue útil",
+        "te agradezco",
+        "gracias por la ayuda",
+        "aprecio tu ayuda",
+        "muchas gracias",
+        "te lo agradezco",
+        "gracias por la información"
+      ],
+      "responses": [
+        "¡De nada, para mi es un placer! Si necesitas más ayuda, no dudes en preguntar."
+      ]
+    },
+  
+    {
+      "tag": "acerca_de",
+      "patterns": [
+        "Acerca de",
+        "Sobre nosotros",
+        "Información institucional"
+      ],
+      "responses": [
+        "Admisiones, Registro y Control Académico es la unidad encargada de la Inscripción, Selección, Admisión, Registro y Control con transparencia del estado académico del estudiante desde su inicio hasta su culminación, brindando seguridad y credibilidad a la información que se produce. Entre sus funciones se encuentran: expedición del boletín final de calificaciones semestral, emisión de constancias, certificados de estudios, registros académicos y otros."
+      ]
+    },
+    {
+      "tag": "mision",
+      "patterns": [
+        "cual es la mision de registro y control academico",
+        "Nuestra mision"
+      ],
+      "responses": [
+        "La Oficina de Admisiones, Registro y Control Académico se compromete en garantizar a los aspirantes y a los estudiantes una atención de calidad en los procesos de inscripción, selección, admisión y registro, acorde con los requisitos académicos exigidos para cada uno de los programas y lo dispuesto en el Reglamento Estudiantil."
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "Visión",
+        "Nuestra visión"
+      ],
+      "responses": [
+        "Aplicando oportuna y correctamente los procesos de Admisiones, Registro y Control Académico, con base en las nuevas tendencias tecnológicas y científicas que demanda la educación, la Oficina de Admisiones se destaca como una dependencia eficiente y de gran apoyo al sistema educativo de la institución."
+      ]
+    },
+    {
+        "tag": "cracion_boot",
+        "patterns": [
+          "para que fuiste creado",
+          "que puedes hacer",
+          "en que me puedes ayudar",
+          "en que procesos me puedes guiar"
+        ],
+        "responses": [
+          "Fui diseñado para guiarte en procesos como:<br/>1. Uso de modulo matricula (Inscripcion Unidades de Formacion / Requisitos de matrícula)Estudiantes nuevos y antiguos. <br/>2.Imprimir,descargar reportes.<br/>3. Iniciar sesion sitio web SIGEDIN.<br/>4. Solicitud de certificados .<br/>, Mi desarrollo esta en constante cambio, asi que muy pronto podre ayudarte con mas cosas :) "
+        ]
+    },
+
+    {
+        "tag": "inscribir_materias",
+        "patterns": [
+          "pasos para inscribir materias",
+          "incripcion materias ",
+          "inscribir materias",
+          "materias, inscricion",
+          "necesito matricular materias ",
+          "necesito inscribir materias como puedo hacer"
+        ],
+        "responses": [
+          "Para insrcibir materias lo que debes hacer es :<br/>1. iniciar_sesion_sigedin. <br/>2.Accede al modulo de matricula selecciona: (Inscripcion Unidades de Formacion ).<br/>3. Genera codigo de inscripcion .<br/>4. Inscribe unidades de formacion.<br/>5.Generacomprobante de pago si pagas por PSE . <br/>6. Descargar formulario con las unidades de isncripcion (firmar).<br/>7. Nuevamente accede al modulo de matriculas y esta vez selecciona la opcion de (Requisitos de matrícula). <br/>8. Seleciona los datos correpondientes al periodo mas actual.<br/>9. Carga los documentos en formato PDF. <br/>10. Espera unos dias y verifica el proceso de verificacion de los documentos. <br/> si quieres que te explique mas a detalle el uso del modulo de inscripcion de materias no dudes en solicitarlo "
+        ]
+    },
+      
+      
+    {
+        "tag": "iniciar_sesion_sigedin",
+        "patterns": [
+          "iniciar sesión en SIGEDIN",
+          "cómo iniciar sesión en SIGEDIN",
+          "acceder a SIGEDIN",
+          "entrar a SIGEDIN"
+        ],
+        "responses": [
+          "Para iniciar sesión en SIGEDIN,<br/> sigue estos pasos:<br/>1. Ingresa al siguiente link: .<br/>2. Accede a la <a href=\"https://sigedin.itp.edu.co/sigedin/menu_principal/menu_principal.php\" target=\"_blank\">página de inicio de sesión de SIGEDIN</a>.<br/>3. Ingresa tus credenciales de usuario (nombre de usuario y contraseña).<br/>4. Haz clic en el botón de iniciar sesión.<br/>Si necesitas algo mas No dudes en preguntar."
+        ]
+    },
+    {
+      "tag": "solicitud_certificados",
+      "patterns": [
+        "solicitar certificados",
+        "certificados solicitar ",
+        "que certificados puedo solicitar",
+        "puedo solicitar que certificados"
+      ],
+      "responses": [
+        "Para solicitar certificados como<br/><br/>CERTFICADO DE ADMICION AL PROGRAMA<br/><br/> CERTIFICADO DE BUENA CONDUCTA <br/><br/>CERTIFICADO DE EXTENCION DEL ICTEX<br/><br/> CERTIFICADO DE FINALIZACION DE UNIDADES DE FORMACION <br/><br/> CERTIFICADO DE MATERIAS <br/><br/> CERTIFICADO DE MATERIAS <br/><br/> CERTIFICADO PROMEDIO ICETEX<br/><br/>CONSTANCIA DE ESTUDIO<br/><br/>RECORD ACADEMICO. <br/><br/> Solo debes diligencias tus datos el tipoi de certificado y el recibo de pago, recuerda que si quieres pagaran en linea puedes hacerlos desde el anexo de la casilla naranja, seleciona tu concepto de pago y uarda recibo de pago para subirlo en la seccion recibo de pago. ,<br/> Ingresa al sigedin y busca la seccion solicitu certificados  <a href=\"https://sigedin.itp.edu.co/sigedin/menu_principal/menu_principal.php\" target=\"_blank\">solicitu certificados SIGEDIN</a>.<br/>3.  Si lo requiere en formato fisico, acérquese a la oficina de ARCA dentro de los cinco días hábiles siguientes a su solicitud. Consulte el estado del mismo en el enlace <br/>Si necesitas algo mas No dudes en preguntar."
+      ]
+  },  
+      
+    {
+        "tag": "acceso_modulo_matriculas_estudiantes_antiguos",
+        "patterns": [
+          "uso modulo matriculas estudiantes antiguos",
+          "pasos detallados",
+          "inscripcion estudiantes antiguos",
+          "como inscribir unidades de formacion estudiantes antiguos",
+          "como inscribir unidades de formacion estudiantes antiguos",
+          "cómo acceder al módulo de matrículas ",
+          "entrar al módulo de matrículas en SIGEDIN"
+        ],
+        "responses": [
+          "Una vez dentro del sistema SIGEDIN,sigue estos pasos para acceder al módulo de matrículas:<br/><br/>1. Navega al menú principal, se encuentra en la barra lateral izquierda, ahí encontrarás botones de acceso a diversas opciones.<br/><br/>2. Selecciona el módulo de 'Matrículas'.<br/><br/>3. Se desplegarán 3 opciones, selecciona '[inscripción unidades de formación]'.<br/><br/>4. En esta ventana, debes como primer lugar seleccionar la sede o periodo más reciente amatricular.<br/><br/>5. Seleccionamos ciclo/programa y elije tu ciclo y programa académico.<br/><br/>6. Presionamos el botón de color rojo '[inscribir]'. Inmediatamente se carga la información seleccionada, además generando un código de inscripción.<br/><br/>7. Procedemos ahora a agregar las unidades de formación en la misma ventana. Clickeamos la pestaña de unidades de formación. Debes seleccionar el semestre para que se cargue el horario y puedas agregar las materias respecto a el. La manera de agregarlas es presionando el chulito que se encuentra al lado izquierdo del nombre de la materia (cuando pase a color azul significa que la unidad de formación fue agregada exitosamente). Debes tener en cuenta que la cantidad de unidades que puedas matricular dependerá del número de créditos que sete asigna segun te semestre.<br/><br/>8. En la sección de matrícula, verás las asignaturas agregadas a tu horario. Genera un recibo de pago desde el botón 'matrícula financiera' si tu pago se realiza a través de PSE.<br/><br/>9. Es necesario decargar el fromulario con las materias incritas ara ello: Presiona el botón de 'form inscripción' para descargar el PDF. Debes firmar aquel PDF.<br/><br/>10. Ahora continumos, para ello: volvemos a presionar el botón de matrícula y esta vez seleccionamos la opción de 'Requisitos de matrícula'.<br/><br/>11. Si el proceso anterior (Inscripcion unidades de formacion) se realizó correctamente, podrás seleccionar tu programa y se cargarán los requisitos que debes subir en formato PDF. Seleccionamos el botón '[seleccionar archivo]' y seleccionamos el documento según corresponda el requisito (Recuerda presionar la casilla de guardar en cada uno de los documentos al momento de cargarse en la pagina). <br/><br/> Al guardar, el estado pasará a pendiente. Si no hay problemas con los documentos, el estado cambiará a '[APROBADO]'. En caso contrario, será '[RECHAZADO]'. Se te notificará por correo si algo salió mal.<br/><br/>Si necesitas información sobre cómo comprar créditos para inscribir unidades de formación adicionales o tienes otra duda sobre nuestros procesos, no dudes en consultarme. <br/> Espero haberte ayudado."
+        ]
+    },
+    {
+        "tag": "incripcion_estudiantes_nuevos ",
+        "patterns": [
+          "nuevo isncripcion estudiantes nuevos",
+          "isncripcion estudiantes nuevos",
+          "estudiante nuevo ",
+          "incripcion primera vez  ",
+          "primera vez"
+
+        ],
+        "responses": [
+          "el proceso para incribirte al itp es:<br/><br/>1. Entramos a la pagina web ofiial del itp, puedes hacerlo desde la casilla naraja.<br/><br/>2. ubica el enlace de sigedin(boton oficina de admisiones) .<br/><br/>3. en Sigedin en la barra de la parte superior selecciona  servicion en linea, ahi selecciona (Incripcion estudiantes nuevos)    <br/><br/>4. ingrese su numero de cc o ti si tiene ya una incripcion demodo congrario presione continuar acepte termino y condiciones,nuevamente precione continuar      <br/><br/>5. diligencie la informacion del formulario, presiuona guardar y luego continuar,si se encuentra co un error comunicarse con la oficina de admisiones       <br/><br/>6. Ahora deberas inscribir tu programa, seleciona la sede luego la extencion o municipio donde se oferta el programa, selecione el programa alcual desea incribirse, responda las preguntas del formulario y presione guardar. los prtogramas incritos se mostraran en la árte superior, en esta seccion puedes elimar ese programa y selecionar otro repita nuevamente el proceso y presione guardar para continuar.     <br/><br/>8. aocntinuacion debera diliegenciar el formulario de datos personales estsos daton sonde importancia para la institucion, llena todo los campos da clik en guardar, si todo va bien se habilitara el boton de contunuar. <br/><br/>9. ahora visualizaras el formulario de inscripcion: en la parte superior seleciona formulario de iscripcion (descargalo y firmalo)<br/><br/>10. seleciona recibo de pago inprime recibo de pago o paga en linea, en la parte inferior debemos subir los reuisitos de iscripcion cargue el requisito y de clik en el boton guardar para todos los docuemntos, el peso de estos no deben superar 1 mb si es asi ahi encontrar un link de compresor de archivos, si los docuemntos se subieron correctamente el color de la casilla sera verde, puede vizualizar el documento presionando la lupa, <br/><br/>11 Revisa constantemete si el estado de los documentos paso a aprovado si ya realizasrte este proceso hace unos dias puedes consultar tu estado de asmision desde aqui: <a href=\"https://sigedin.itp.edu.co/sigedin/menu_principal/menu_principal.php\" target=\"_blank\">Verificar solicitud de admision</a>, tambien se le informara por correo electronico sore su proceso de inscripcion,si fuiste admitido, puedes ingresar a la plataforma sigedin con tus credenciales <a href=\"https://sigedin.itp.edu.co/estudiantes/app_Login/app_Login.php\" target=\"_blank\">página de inicio de sesión de SIGEDIN</a>  en hora buena. Bienvenido a nuestra institucuion. <br/><br/> Si esta informacion no es suficiente ocmunicate o dirigete a la oficina de admisiones y control.     "
+        ]
+    },
+    {
+        "tag": "busqueda_estudiante",
+        "patterns": [
+          "búsqueda del estudiante",
+          "cómo buscar un estudiante",
+          "buscar estudiante en SIGEDIN"
+        ],
+        "responses": [
+          "Para buscar un estudiante en SIGEDIN, sigue estos pasos:\n1. Introduce el número de identificación del estudiante o su nombre en la barra de búsqueda.\n2. Haz clic en el botón de búsqueda."
+        ]
+    },
+    {
+        "tag": "procesos_admision",
+        "patterns": [
+          "proceso admision",
+          "procesos de admisión académicos",
+          "procedimientos académicos",
+          "¿Cómo es el proceso de selección y admisión?",
+          "¿Cuáles son las pruebas de selección?",
+          "¿Qué mecanismos de selección existen?",
+          "¿Qué se evalúa en el proceso de admisión?",
+          "¿Cómo se determina la admisión de los estudiantes?",
+          "¿Qué criterios se utilizan para seleccionar estudiantes?",
+          "¿El proceso de admisión incluye entrevistas?"
+        ],
+        "responses": [
+          "El proceso de selección y admisión tiene por objeto evaluar los conocimientos, aptitudes y actitudes del aspirante. Los mecanismos y pruebas de selección son definidos por el Consejo Académico y pueden incluir pruebas específicas y entrevistas. Los criterios de selección se basan en el rendimiento académico, aptitudes y cumplimiento de los requisitos establecidos."
+        ]
+    },
+    {
+        "tag": "documentacion_requerida_admision",
+        "patterns": [
+          "documentación requerida admision primera vez ",
+          "documentos necesarios para admisión",
+          "papeles para matricularse ",
+          "¿Qué documentos necesito para la inscripción?",
+          "¿Qué papeles se requieren para la matrícula?",
+          "¿Cuál es la documentación requerida para ingresar?",
+          "¿Qué se debe presentar para la admisión?",
+          "¿Cuáles son los requisitos de inscripción?",
+          "¿Qué necesito para inscribirme?",
+          "¿Qué debo entregar para la matrícula?"
+        ],
+        "responses": [
+          "La documentación requerida para la admisión incluye: formulario de inscripción diligenciado, comprobante de pago de los derechos de inscripción, título de bachiller o su equivalente, fotocopia de la cédula de ciudadanía, fotocopia de un recibo de servicios públicos, dos fotos tamaño cédula, y otros documentos específicos según el programa."
+        ]
+    },
+    {
+            "tag": "sede_mocoa",
+            "patterns": [
+              "¿Dónde está la sede Mocoa?", "Ubicación de la sede Mocoa", "¿Cuál es la dirección de la sede Mocoa?", "Dirección sede Mocoa", "Localización sede Mocoa", "Sede Mocoa dirección"
+            ],
+            "responses": [
+              "La sede principal de Mocoa está ubicada en: “Aire Libre” Barrio Luis Carlos Galán."
+            ]
+    },
+    {
+            "tag": "contactos_telefonicos",
+            "patterns": [
+              "Telefonos sede Mocoa", "Contacto telefónico sede Mocoa", "Numeros de teléfono de la sede Mocoa", "¿Cual es el telefono de la sede Mocoa?", "Telefono Mocoa", "Números de contacto sede Mocoa"
+            ],
+            "responses": [
+              "Los teléfonos de contacto de la sede Mocoa son: 3138052807 – 3103310083."
+            ]
+    },
+    {
+            "tag": "horario_atencion",
+            "patterns": [
+              "Horario de atencion sede Mocoa", "Horas de atención al publico en la sede Mocoa", "¿Cual es el horario de atención de la sede Mocoa?", "Horario de servicio sede Mocoa", "Atencion al publico Mocoa", "¿Cuando atiende la sede Mocoa?"
+            ],
+            "responses": [
+              "El horario de atención al público en la sede Mocoa es: Lunes a Viernes de 8 a.m. a 12 m. y de 2 p.m. a 6 p.m."
+            ]
+    },
+    {
+            "tag": "notificaciones_judiciales",
+            "patterns": [
+              "Correo notificaciones judiciales sede Mocoa", "Email para notificaciones judiciales en la sede Mocoa", "¿Cuál es el correo para notificaciones judiciales en Mocoa?", "Notificaciones judiciales Mocoa", "Correo judicial sede Mocoa", "Email judicial Mocoa"
+            ],
+            "responses": [
+              "El correo para notificaciones judiciales en la sede Mocoa es: notificacionesjudiciales@itp.edu.co."
+            ]
+    },
+
+    {
+                "tag": "ciclo_tecnologico_nuevos",
+                "patterns": [
+                  "Ciclo Tecnológico - Matrícula Estudiantes Nuevos", "Matrícula Nuevos Estudiantes en Ciclo Tecnológico", "Requisitos Matrícula Estudiantes Nuevos en Ciclo Tecnológico"
+                ],
+                "responses": [
+                  "Requisitos para Matrícula de Estudiantes Nuevos en Ciclo Tecnológico:<br/>- Registro de Materias (Firmado)<br/>- Recibo de Pago por Derechos de Matrícula y Complementarios (Consignación del Banco, Requiere sello de tesorería si fue cancelado en un banco diferente a BBVA o Pago en Línea)<br/>- Una Fotografía Reciente Fondo Blanco 3x4, para Carnet (JPEG o JPG)<br/>- Certificación Médica de Buen Estado de Salud y Aptitud para Vivir en Comunidad<br/>- Fotocopia de Última Factura de un Servicio Público (Aseo, Energía o Teléfono)<br/>- Certificado Electoral (29-10-2023 Elecciones Territoriales - Gobernación, Alcaldía, Asamblea, Concejo) - No es obligatorio"
+                ]
+    },
+    {
+                "tag": "ciclo_tecnologico_antiguos",
+                "patterns": [
+                  "Ciclo Tecnológico - Matrícula Estudiantes Antiguos", "Matrícula Estudiantes Antiguos en Ciclo Tecnológico", "Requisitos Matrícula Estudiantes Antiguos en Ciclo Tecnológico"
+                ],
+                "responses": [
+                  "Requisitos para Matrícula de Estudiantes Antiguos en Ciclo Tecnológico:<br/>- Registro de Materias (Firmado)<br/>- Recibo de Pago por Derechos de Matrícula y Complementarios (Consignación del Banco, Requiere sello de tesorería si fue cancelado en un banco diferente a BBVA o Pago en Línea)<br/>- Paz y Salvo del Semestre Anterior - No obligatorio para reingresos.<br/>- Fotocopia de Última Factura de un Servicio Público (Aseo, Energía o Teléfono)<br/>- Certificado Electoral (29-10-2023 Elecciones Territoriales - Gobernación, Alcaldía, Asamblea, Concejo) - No es obligatorio"
+                ]
+    },
+    {
+                "tag": "otros_requisitos",
+                "patterns": [
+                  "Otros Requisitos", "Requisitos Adicionales", "Documentos Adicionales", "Requisitos Extra", "Documentos Extras", "Requisitos No Obligatorios"
+                ],
+                "responses": [
+                  "Otros Requisitos (Requisito No Obligatorio):<br/>- Certificado Electoral (29-10-2023 Elecciones Territoriales - Gobernación, Alcaldía, Asamblea, Concejo)"
+                ]
+    },
+    {
+                "tag": "ciclo_profesional_nuevos",
+                "patterns": [
+                  "Ciclo Profesional - Matrícula Estudiantes Nuevos - Séptimo Semestre", "Matrícula Nuevos Estudiantes en Ciclo Profesional Séptimo Semestre", "Requisitos Matrícula Estudiantes Nuevos en Ciclo Profesional Séptimo Semestre"
+                ],
+                "responses": [
+                  "Requisitos para Matrícula de Estudiantes Nuevos en Ciclo Profesional - Séptimo Semestre:<br/>- Formulario de Inscripción (Firmado)<br/>- Registro de Materias (Firmado)<br/>- Recibo de Pago por Derechos de Matrícula y Complementarios (Consignación del Banco, Requiere sello de tesorería si fue cancelado en un banco diferente a BBVA o Pago en Línea)<br/>- Copia del Documento de Identificación Ampliada, Clara y Legible<br/>- Copia del Título o Acta de Tecnólogo<br/>- Copia del SISBEN<br/>- Una Fotografía Reciente Fondo Blanco 3x4, para Carnet (JPEG o JPG)<br/>- Fotocopia de Última Factura de un Servicio Público (Aseo, Energía o Teléfono)<br/>- Certificado Electoral (29-10-2023 Elecciones Territoriales - Gobernación, Alcaldía, Asamblea, Concejo)"
+                ]
+    },
+    {
+                "tag": "ciclo_profesional_antiguos",
+                "patterns": [
+                  "Ciclo Profesional - Matrícula Estudiantes Antiguos - Séptimo Semestre", "Matrícula Estudiantes Antiguos en Ciclo Profesional Séptimo Semestre", "Requisitos Matrícula Estudiantes Antiguos en Ciclo Profesional Séptimo Semestre"
+                ],
+                "responses": [
+                  "Requisitos para Matrícula de Estudiantes Antiguos en Ciclo Profesional - Séptimo Semestre:<br/>- Registro de Materias (Firmado)<br/>- Recibo de Pago por Derechos de Matrícula y Complementarios (Consignación del Banco, Requiere sello de tesorería si fue cancelado en un banco diferente a BBVA o Pago en Línea)<br/>- Paz y Salvo del Semestre Anterior - No obligatorio para reingresos.<br/>- Fotocopia de Última Factura de un Servicio Público (Aseo, Energía o Teléfono)<br/>- Certificado Electoral (29-10-2023 Elecciones Territoriales - Gobernación, Alcaldía, Asamblea, Concejo)"
+                ]
+    },
+    {
+                "tag": "requisitos_inscripcion",
+                "patterns": [
+                  "Requisitos de Inscripción", "Documentos para Inscripción", "Qué necesito para Inscribirme", "Papeles para Inscripción", "Requisitos para Matricularse"
+                ],
+                "responses": [
+                  "Requisitos de Inscripción:<br/>- Ciclo Tecnológico - Inscripción Estudiantes Nuevos:<br/>- Formulario de Inscripción (Firmado)<br/>- Comprobante de Derechos de Inscripción - (Soporte emitido por la entidad financiera, requiere sello de tesorería si fue cancelado en un banco diferente a BBVA o Pago en Línea)<br/>- Copia del Documento de Identificación Ampliada, Clara y Legible<br/>- Copia de Pruebas Estado - ICFES (Resultados)<br/>- Copia del Título o Acta de Bachiller<br/>- Copia SISBEN o Certificado de Cabildo Indígena Nacional<br/>- Copia del Carnet EPS o Certificado de Afiliación<br/>- Certificado Electoral (29-10-2023 Elecciones Territoriales - Gobernación, Alcaldía, Asamblea, Concejo) - No es obligatorio"
+                ]
+    },
+    {
+                "tag": "datos_contacto_docentes_apoyo",
+                "patterns": [
+                  "Datos de Contacto Docentes Apoyo", "Información de Contacto para Estudiantes", "Contacto Docentes de Apoyo", "Coordinador de Extensión", "Contactar Docente para Trámites", "Cómo Contactar al Docente de Apoyo"
+                ],
+                "responses": [
+                  "Si eres un estudiante de Reingreso, Reintegro u Homologación, por favor, ponte en contacto con el docente de apoyo o coordinador de extensión para realizar los trámites pertinentes y retomar tus estudios académicos.<br/>Posteriormente, adjunta los requisitos en el formulario de Reingresos.<br/>Sede/Extensión: SELECCIONE SEDE..<br/>Facultad: SELECCIONE FACULTAD...<br/>Programa: CONSULTE POR PROGRAMA"
+                ]
+    },
+    {
+      "tag": "descargar_formatos_solicitud_grado",
+      "patterns": [
+        "Formatos Solicitud de Grado(descargar)", "Formatos para Solicitud de Grado", "Documentos para Graduación", "Solicitud de Grado", "Inscripción Trabajo de Grado", "Ayuda - Guía Solicitud de Grado", "Formato Único de Hoja de Vida"
+      ],
+      "responses": [
+        "Desde ARCAboot puedes acceder a los siguientes formatos para solicitud de grado, luego de abrir el link podras descargar el archivo:<br/>- <a href=\"https://sigedin.itp.edu.co/sigedin/sigedin_excel/documents/sigedin_documents/estudiantes/solicitudes_grado/P67I0U.pdf\" target=\"_blank\">Formato solicitud de grado </a>.<br/>- <a href=\"https://sigedin.itp.edu.co/sigedin/sigedin_excel/documents/sigedin_documents/estudiantes/solicitudes_grado/UHTJYA.pdf\" target=\"_blank\">Formato guia proceso solicitud grado</a>.<br/>- <a href=\"https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fsigedin.itp.edu.co%2Fsigedin%2Fsigedin_excel%2Fdocuments%2Fsigedin_documents%2Festudiantes%2Fsolicitudes_grado%2FVM4L8G.xlsx&wdOrigin=BROWSELINK\" target=\"_blank\">formato de isncripcion trabajo de grado</a>.<br/>- <a href=\"https://sigedin.itp.edu.co/sigedin/sigedin_excel/documents/sigedin_documents/estudiantes/solicitudes_grado/3476TL.pdf\" target=\"_blank\"> Formato Unico de hoja de vida.</a>.<br/>Si necesitas algo más, no dudes en preguntar."
+      ]
+    }
+    
+    
+          
+        
+      
+      
+
+      
+
+  ]
+}
